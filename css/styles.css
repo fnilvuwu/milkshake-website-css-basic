@@ -18,6 +18,7 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
     
 }
 h3 {
@@ -29,29 +30,38 @@ h3 {
 a {
     color:  #11999E;
     text-decoration: none;
-    margin: 15px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a:hover {
+    color: #EAF6F6
 }
 
 .milkshake {
     text-decoration: underline;
 }
+.intro {
+    width: 30%;
+    margin: auto;
+}
 .top-container {
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 .middle-container {
-    margin: 50px;
+    margin: 100px 0;
+
 }
 .bottom-container {
     background-color: #66BFBF;
-    padding: 50px;   
+    padding: 50px 0 20px;   
 }
 .skill-row {
     width: 50%;
-    margin: 100px auto;
+    margin: 200px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .skill-computer {
@@ -81,6 +91,7 @@ a {
 
 p {
     color: #40514E;
+    line-height: 2;
 }
 
 .btn {
@@ -93,7 +104,7 @@ p {
   -webkit-border-radius:  8;
   -moz-border-radius:  8;
   border-radius:  8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -111,9 +122,17 @@ p {
 }
 
 hr {
-    border-style: none;
-    border-top-style: dotted;
+    border: dotted;
+    border-bottom: none;
     border-width: 5px;
     width: 4%;
-    color: #EAF6F6;
+    /* color: #EAF6F6; */
+    /* color: #40514E; */
+    color: #649698;
+    margin: 100px auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
 }
